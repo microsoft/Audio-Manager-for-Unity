@@ -1,0 +1,1052 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9d501b83c3a5d45b5deffcc726951f, type: 3}
+  m_Name: ExampleBank
+  m_EditorClassIdentifier: 
+  audioEvents:
+  - {fileID: 114862181217069702}
+  - {fileID: 114268568426009842}
+  - {fileID: 114152458844612320}
+  parameters: []
+--- !u!114 &114018342362280440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: HoverBump_03
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9322
+    y: 10100
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114660865504175212}
+  file: {fileID: 8300000, guid: eb1ecc6af91d07446aae1b3f303005d3, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114056980226469656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9630
+    y: 9979
+    width: 20
+    height: 20
+  parentNode: {fileID: 114147100350809974}
+--- !u!114 &114085740438621602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Pop_03
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9331
+    y: 10040
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114793554488902436}
+  file: {fileID: 8300000, guid: 0ba1d994397160b4fb15379cc06d3d28, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114091831872406060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a81b464ba9745e44be8820ad1c8cfd6, type: 3}
+  m_Name: Random SelectorInput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9739
+    y: 10091.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 114367634113053276}
+  connectedNodes:
+  - {fileID: 114831400431887994}
+  - {fileID: 114056980226469656}
+  - {fileID: 114793554488902436}
+  - {fileID: 114709859868464680}
+  - {fileID: 114690650953786094}
+  forceSingleConnection: 0
+--- !u!114 &114094573313308092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a81b464ba9745e44be8820ad1c8cfd6, type: 3}
+  m_Name: OutputInput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9980
+    y: 10092.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 114213194465609866}
+  connectedNodes:
+  - {fileID: 114430855802490354}
+  forceSingleConnection: 0
+--- !u!114 &114108880127639324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9617
+    y: 10036
+    width: 20
+    height: 20
+  parentNode: {fileID: 114609579756007546}
+--- !u!114 &114147100350809974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Pop_02
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9330
+    y: 9929
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114056980226469656}
+  file: {fileID: 8300000, guid: c01b9eb07d6d92245b376b002ce15581, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114152458844612320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d6a001556e463478b5c476e3e6195c, type: 3}
+  m_Name: Pop
+  m_EditorClassIdentifier: 
+  instanceLimit: 0
+  fadeIn: 0
+  fadeOut: 0
+  group: 0
+  nodes:
+  - {fileID: 114543693338752492}
+  - {fileID: 114174124007783422}
+  - {fileID: 114147100350809974}
+  - {fileID: 114085740438621602}
+  - {fileID: 114169179406422108}
+  - {fileID: 114249216624301392}
+  - {fileID: 114367634113053276}
+  output: {fileID: 114543693338752492}
+  parameters: []
+--- !u!114 &114169179406422108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Pop_04
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9333
+    y: 10152
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114709859868464680}
+  file: {fileID: 8300000, guid: a3e78a024797c8548851dd0438a4f7d1, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114174124007783422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Pop_01
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9330
+    y: 9820
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114831400431887994}
+  file: {fileID: 8300000, guid: ff1cfe55b3fd386498dcb18e986acc34, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114188032009718860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9964
+    y: 9992
+    width: 20
+    height: 20
+  parentNode: {fileID: 114238473571743302}
+--- !u!114 &114213194465609866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb3210b711af0f4ab76fc3bff926f11, type: 3}
+  m_Name: Output
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 10000
+    y: 10000
+    width: 300
+    height: 185
+  input: {fileID: 114094573313308092}
+  output: {fileID: 0}
+  mixerGroup: {fileID: 0}
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 0.95
+  MaxPitch: 1.05
+  loop: 0
+  spatialBlend: 0
+  HRTF: 0
+  MaxDistance: 10
+  attenuationCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  dopplerLevel: 1
+--- !u!114 &114238473571743302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Close_01
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9664
+    y: 9942
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114188032009718860}
+  file: {fileID: 8300000, guid: 6a3776b0c601bde47abac312e969b2ec, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114249216624301392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Pop_05
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9333
+    y: 10265
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114690650953786094}
+  file: {fileID: 8300000, guid: 90010d72328cde74c828e489a0309387, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114254286308298582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9962
+    y: 10230
+    width: 20
+    height: 20
+  parentNode: {fileID: 114909592008924392}
+--- !u!114 &114268568426009842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d6a001556e463478b5c476e3e6195c, type: 3}
+  m_Name: Hover
+  m_EditorClassIdentifier: 
+  instanceLimit: 0
+  fadeIn: 0
+  fadeOut: 0
+  group: 0
+  nodes:
+  - {fileID: 114213194465609866}
+  - {fileID: 114953082225166050}
+  - {fileID: 114609579756007546}
+  - {fileID: 114018342362280440}
+  - {fileID: 114873399991069530}
+  - {fileID: 114331772999762060}
+  output: {fileID: 114213194465609866}
+  parameters: []
+--- !u!114 &114331772999762060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a466c9b2ddc9d041a615c9ed2fd6d99, type: 3}
+  m_Name: Random Selector
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9759
+    y: 10067.5
+    width: 150
+    height: 50
+  input: {fileID: 114802339987304262}
+  output: {fileID: 114430855802490354}
+--- !u!114 &114337039715407908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a81b464ba9745e44be8820ad1c8cfd6, type: 3}
+  m_Name: OutputInput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 10318
+    y: 10230.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 114830916503306938}
+  connectedNodes:
+  - {fileID: 114685113917459350}
+  forceSingleConnection: 0
+--- !u!114 &114349714407220280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9963
+    y: 10108
+    width: 20
+    height: 20
+  parentNode: {fileID: 114880526292298914}
+--- !u!114 &114367634113053276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a466c9b2ddc9d041a615c9ed2fd6d99, type: 3}
+  m_Name: Random Selector
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9759
+    y: 10066.5
+    width: 150
+    height: 50
+  input: {fileID: 114091831872406060}
+  output: {fileID: 114734071934535334}
+--- !u!114 &114430855802490354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Random SelectorOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9909
+    y: 10092.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 114331772999762060}
+--- !u!114 &114436360467842836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9621
+    y: 10269
+    width: 20
+    height: 20
+  parentNode: {fileID: 114873399991069530}
+--- !u!114 &114525521268108200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9963
+    y: 10347
+    width: 20
+    height: 20
+  parentNode: {fileID: 114578619539458252}
+--- !u!114 &114540746265982562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a466c9b2ddc9d041a615c9ed2fd6d99, type: 3}
+  m_Name: Random Selector
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 10089
+    y: 10204.5
+    width: 150
+    height: 50
+  input: {fileID: 114974555445226258}
+  output: {fileID: 114685113917459350}
+--- !u!114 &114543693338752492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb3210b711af0f4ab76fc3bff926f11, type: 3}
+  m_Name: Output
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 10000
+    y: 10000
+    width: 300
+    height: 185
+  input: {fileID: 114830511355808096}
+  output: {fileID: 0}
+  mixerGroup: {fileID: 0}
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 0.95
+  MaxPitch: 1.05
+  loop: 0
+  spatialBlend: 0
+  HRTF: 0
+  MaxDistance: 10
+  attenuationCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  dopplerLevel: 1
+--- !u!114 &114544482785973250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Close_05
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9669
+    y: 10418
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114937087195637554}
+  file: {fileID: 8300000, guid: 5ad63cb2c22ab134098a0e7854e1311e, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114578619539458252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Close_04
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9663
+    y: 10297
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114525521268108200}
+  file: {fileID: 8300000, guid: 97f015b418081d54dabc23854ac24f21, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114609579756007546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: HoverBump_02
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9317
+    y: 9986
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114108880127639324}
+  file: {fileID: 8300000, guid: bc7078a21c54a5f43abe62c0892d09ac, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114660865504175212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9622
+    y: 10150
+    width: 20
+    height: 20
+  parentNode: {fileID: 114018342362280440}
+--- !u!114 &114685113917459350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Random SelectorOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 10239
+    y: 10229.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 114540746265982562}
+--- !u!114 &114690650953786094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9633
+    y: 10315
+    width: 20
+    height: 20
+  parentNode: {fileID: 114249216624301392}
+--- !u!114 &114709859868464680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9633
+    y: 10202
+    width: 20
+    height: 20
+  parentNode: {fileID: 114169179406422108}
+--- !u!114 &114734071934535334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Random SelectorOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9909
+    y: 10091.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 114367634113053276}
+--- !u!114 &114751683512926916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9617
+    y: 9920
+    width: 20
+    height: 20
+  parentNode: {fileID: 114953082225166050}
+--- !u!114 &114793554488902436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9631
+    y: 10090
+    width: 20
+    height: 20
+  parentNode: {fileID: 114085740438621602}
+--- !u!114 &114802339987304262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a81b464ba9745e44be8820ad1c8cfd6, type: 3}
+  m_Name: Random SelectorInput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9739
+    y: 10092.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 114331772999762060}
+  connectedNodes:
+  - {fileID: 114751683512926916}
+  - {fileID: 114108880127639324}
+  - {fileID: 114660865504175212}
+  - {fileID: 114436360467842836}
+  forceSingleConnection: 0
+--- !u!114 &114830511355808096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a81b464ba9745e44be8820ad1c8cfd6, type: 3}
+  m_Name: OutputInput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9980
+    y: 10092.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 114543693338752492}
+  connectedNodes:
+  - {fileID: 114734071934535334}
+  forceSingleConnection: 0
+--- !u!114 &114830916503306938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb3210b711af0f4ab76fc3bff926f11, type: 3}
+  m_Name: Output
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 10338
+    y: 10138
+    width: 300
+    height: 185
+  input: {fileID: 114337039715407908}
+  output: {fileID: 0}
+  mixerGroup: {fileID: 0}
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 0.95
+  MaxPitch: 1.05
+  loop: 0
+  spatialBlend: 0
+  HRTF: 0
+  MaxDistance: 10
+  attenuationCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  dopplerLevel: 1
+--- !u!114 &114831400431887994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9630
+    y: 9870
+    width: 20
+    height: 20
+  parentNode: {fileID: 114174124007783422}
+--- !u!114 &114862181217069702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d6a001556e463478b5c476e3e6195c, type: 3}
+  m_Name: Close
+  m_EditorClassIdentifier: 
+  instanceLimit: 0
+  fadeIn: 0
+  fadeOut: 0
+  group: 0
+  nodes:
+  - {fileID: 114830916503306938}
+  - {fileID: 114238473571743302}
+  - {fileID: 114880526292298914}
+  - {fileID: 114909592008924392}
+  - {fileID: 114578619539458252}
+  - {fileID: 114544482785973250}
+  - {fileID: 114540746265982562}
+  output: {fileID: 114830916503306938}
+  parameters: []
+--- !u!114 &114873399991069530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: HoverBump_04
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9321
+    y: 10219
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114436360467842836}
+  file: {fileID: 8300000, guid: d2984ecc43800284c8ce6b9cf4979a1f, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114880526292298914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Close_02
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9663
+    y: 10058
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114349714407220280}
+  file: {fileID: 8300000, guid: 57efa9e8cd377fb439de8d4aef14c55e, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114909592008924392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Close_03
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9662
+    y: 10180
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114254286308298582}
+  file: {fileID: 8300000, guid: b48798d283806774f9d13fe0c900f0c0, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114937087195637554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9969
+    y: 10468
+    width: 20
+    height: 20
+  parentNode: {fileID: 114544482785973250}
+--- !u!114 &114953082225166050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: HoverBump_01
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9317
+    y: 9870
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 114751683512926916}
+  file: {fileID: 8300000, guid: 810e6dca8ef71344cbc890b34671250f, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
+--- !u!114 &114974555445226258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a81b464ba9745e44be8820ad1c8cfd6, type: 3}
+  m_Name: Random SelectorInput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 10069
+    y: 10229.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 114540746265982562}
+  connectedNodes:
+  - {fileID: 114188032009718860}
+  - {fileID: 114349714407220280}
+  - {fileID: 114254286308298582}
+  - {fileID: 114525521268108200}
+  - {fileID: 114937087195637554}
+  forceSingleConnection: 0
