@@ -160,12 +160,12 @@ namespace Microsoft.MixedReality.Toolkit.Audio
         /// </summary>
         public static void UpdateLanguages()
         {
-            //CultureInfo[] cultures = CultureInfo.GetCultures(CultureTypes.AllCultures);
-            //Languages = new string[cultures.Length];
-            //for (int i = 0; i < cultures.Length; i++)
-            //{
-            //    Languages[i] = cultures[i].Name;
-            //}
+            CultureInfo[] cultures = CultureInfo.GetCultures(CultureTypes.AllCultures);
+            Languages = new string[cultures.Length];
+            for (int i = 0; i < cultures.Length; i++)
+            {
+                Languages[i] = cultures[i].Name;
+            }
         }
 
         #endregion
@@ -181,17 +181,6 @@ namespace Microsoft.MixedReality.Toolkit.Audio
                 {
                     tempEvent.Update();
                 }
-            }
-            
-
-            if (UnityEngine.Input.GetKeyDown(KeyCode.F))
-            {
-                string guids = "";
-                for (int i = 0; i < AvailableSources.Count; i++)
-                {
-                    guids += AvailableSources[i].GetInstanceID() + "\n";
-                }
-                Debug.LogFormat("GUIDS:\n{0}", guids);
             }
         }
 

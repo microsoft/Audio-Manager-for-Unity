@@ -107,7 +107,7 @@ namespace Microsoft.MixedReality.Toolkit.Audio
             this.volumeOffset = EditorGUILayout.Slider("Volume Offset", this.volumeOffset, -1, 1);
             this.pitchOffset = EditorGUILayout.Slider("Pitch Offset", this.pitchOffset, -3, 3);
             this.text = EditorGUILayout.TextField("Text", this.text);
-            this.language = EditorGUILayout.Popup(this.language, AudioManager.Languages);
+            this.language = EditorGUILayout.Popup("Language", this.language, AudioManager.Languages);
         }
 #endif
     }

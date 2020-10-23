@@ -685,6 +685,8 @@ namespace Microsoft.MixedReality.Toolkit.Audio
             this.panGraph = false;
             this.hasPanned = false;
             this.selectedOutput = null;
+            this.rightButtonClicked = false;
+            this.leftButtonDown = false;
         }
 
         /// <summary>
