@@ -1,0 +1,15 @@
+{
+  "name": "com.microsoft.audiomanagerforunity",
+  "version": "0.3.0",
+  "displayName": "Microsoft Audio Manager for Unity",
+  "description": "Adds an audio event system for complex sound behaviors and controls.",
+  "unity": "2019.4",
+  "keywords": [
+    "audio",
+    "sound"
+  ],
+  "author": {
+    "name": "Microsoft"
+  },
+  "hideInEditor": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "com.microsoft.edt.lib.audiomanager.editor",
+    "references": [
+        "GUID:60c6551998711ca4b9d346347b638d74"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
